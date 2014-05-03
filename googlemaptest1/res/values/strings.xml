@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">googlemaptest1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_list_log">ListLog</string>
+    <string name="title_activity_viewpage2">ViewpageDone</string>
+    <string name="title_activity_viewpage1">ViewpageEdit</string>
+    <string name="title_activity_image_show">ImageShow</string>
+    <string name="title_activity_login__ui">Login_UI</string>
+    <string name="title_activity_register__ui">Register_UI</string>
+    <string name="menu_change_password">change password</string>
+    <string name="title_activity_change_passwordpage">ChangePasswordpage</string>
+
+</resources>

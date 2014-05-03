@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        android:background="@drawable/samplebackground1"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id = "@+id/s_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.95"
+            android:text="Time "
+            tools:context=".Viewpage2" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2.1"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1.00"
+                android:background="@drawable/image_02"
+                android:focusable="true"
+                android:onClick="showpicture"
+                android:text="Button" />
+
+    <TextView
+     
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text=""
+        />
+            
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/button_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:onClick="sendMessage"
+                    android:text="edit" />
+
+                <Button
+                    android:id="@+id/button_del"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:onClick="deleteNode"
+                    android:text="delete" />
+
+                <Button
+                    android:id="@+id/button_back"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:onClick="gomappage"
+                    android:text="back" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            tools:context=".Viewpage2" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.98"
+            android:text=""
+            tools:context=".Viewpage2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="my Maplog"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="4.99"
+            android:text=""
+            tools:context=".Viewpage2" />
+    </LinearLayout>
+
+</RelativeLayout>
